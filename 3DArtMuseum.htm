@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>3D Art Museum</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<link rel="stylesheet" type="text/css" href="3DArtMuseum.css">
+	</head>
+	<body>
+		<div id="pleasewait"><table><tr><td><img src="3DArtMuseum.png" alt="logo"/><br/><br/>Visit: <b>3D Art Gallery on India after Independence</b>.</td></tr></table><div id="pleasewaitcontainer"><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div>
+
+		<div id="buttonenter"><div>Enter 3D art Gallery</div></div>
+		<div id="content"><div id="container"></div></div>
+		<div id="controls"><div id="controls_minus"></div><div id="controls_plus"></div></div>
+		<div id="info"><div id="infotext"></div></div>
+		<!-- <div id="about">por LRusso.com</div> -->
+
+		<script src="3DArtMuseumPleaseRotate.js"></script>
+		<script src="3DArtMuseum.js"></script>
+		<script>
+
+			drawRoom();
+
+			addToLeft(50,  200, "1947.jpeg", "1947.mp3", "The Indo-Pakistani War of 1947-1948, known as the First Kashmir War, was fought between India and Pakistan over the princely state of Kashmir and Jammu.");
+			addToLeft(50,  105, "1948.jpeg", "1948.mp3", "Men’s Hockey team brings home the first Olympic Gold.");
+			addToLeft(50,   20, "1949.jpeg", "1949.mp3", "The Reserve Bank of India commenced its operations in 1935. But it was in the year 1949 that the bank got nationalized.");
+			addToLeft(46,  -80, "1951.jpeg", "1951.mp3", "India's first IIT (Indian Institute of Technology) was inaugurated on August 18, 1951, in Kharagpur.");
+                        addToLeft(46,  -80, "1952.jpeg", "1952.mp3", "Our first elections held in 1952.");
+
+			addToFront(40, -320, "1955.jpeg", "1955.mp3", "Nationalized the Imperial bank in to the State bank of India.");
+			addToFront(27, -250, "1956.jpeg", "1956.mp3", "India's first atomic reactor, Apsara, went critical on August 4, 1956. The reactor was designed by the Bhabha Atomic Research Center (BARC). It was a symbol of arrival of India's nuclear energy program.");
+			addToFront(53, -170, "1959.jpeg", "1959.mp3", "India’s first television service introduced in 1959.");
+			addToFront(47,  -80, "1960.jpeg", "1960.mp3", "Milkha Singh earns the title - The Flying Sikh in Pakistan’s historic track race.");
+			addToFront(36,    0, "1967a.jpeg", "1967a.mp3", "Pandit Ravi Shankar becomes the first Indian ever to win a Grammy Award.");
+
+			addToRight(47, -160, "1967b.jpeg", "1967b.mp3", "India's first green revolution started in 1967. The Green Revolution, spreading over the period from 1967-68 to 1977-78, changed India's status from a food-deficient country to one of the world's leading agricultural nations.");
+			addToRight(50,  -50, "1969.jpeg", "1969.mp3", "The Indian Space Research Organisation (ISRO) was formed on August 15, 1969, under the leadership of Dr Vikram A Sarabhai. ISRO was formulated under the Indian National Committee for Space Research (INCOSPAR).");
+			addToRight(37,   50, "1971.jpeg", "1971.mp3", "Department of Science & Technology (DST) was established in May 1971, with the objective of promoting new areas of Science & Technology and to play the role of a nodal department for organising, coordinating and promoting S&T activities in the country.");
+			addToRight(26,  125, "1974.jpeg", "1974.mp3", "On May 18, 1974, India conducted its first successful nuclear explosion at Pokhran, which was code-named as 'Smiling Buddha'.");
+			addToRight(21,  200, "1975.jpeg", "1975.mp3", "India's first satellite, Aryabhata, was launched on April 19, 1975, by ISRO. The satellite re-entered atmosphere of Earth after 17 years on 11 February 1992.");
+
+			addToBack(42,    0, "1979.jpeg", "1979.mp3", "Mother Teresa wins the Nobel peace prize.");
+			addToBack(42,  -80, "1983.jpeg", "1983.mp3", "India lifts the Cricket world cup in 1983 by beating West Indies.");
+			addToBack(25, -170, "1984a.jpeg", "1984a.mp3", "Rakesh Sharma became the first Indian to travel in Space in a Soviet rocket in the year 1984.");
+			addToBack(42, -250, "1984b.jpeg", "1984b.mp3", "My Dear Kuttichathan, a Malayalam film, became the first 3D movie in the history of Indian cinema. It was later dubbed in Hindi as Chhota Chetan.");
+			addToBack(27, -320, "1991.jpeg", "1991.mp3", "Kerala earns the title of ‘The State with Total Literacy’ in the year 1991.");
+
+			renderRoom();
+
+			welcome("welcomeaudio.mp3", "Welcome to India Independence Art Gallery");
+
+		</script>
+	</body>
+</html>
